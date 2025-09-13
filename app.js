@@ -19,26 +19,52 @@
 
 // alert (cash + " CASH " + uzs + " UZS ")
 
-engkattasi (2,55,1)
+// engkattasi (2,55,1)
 
-function engkattasi(a,b,c){
-    let maxval = []
-    let minimum = []
-    let medium = []
-    let max = a 
-    if(b<max && c<max) {
-        console.log(max);
-    }else if(max < b && c < b){
-        console.log(b);
-    }
-    else{
-        console.log(c);
-    }
-    return [...minimum, ...maxval, ...medium]
-}
+// function engkattasi(a,b,c){
+//     let maxval = []
+//     let minimum = []
+//     let medium = []
+//     let max = a 
+//     if(b<max && c<max) {
+//         console.log(max);
+//     }else if(max < b && c < b){
+//         console.log(b);
+//     }
+//     else{
+//         console.log(c);
+//     }
+//     return [...minimum, ...maxval, ...medium]
+// }
 
-console.log([] + {});
-console.log({} + []);
+// console.log([] + {});
+// console.log({} + []);
 
 
-console.log(typeof null);
+// console.log(typeof null);
+
+let movies = [
+    {
+        movie: "The Dark Knight",
+    year: 1998
+},
+
+    {
+        movie: "120 Friends Oushen",
+        year: 2002
+    },
+    {
+        movie: "Волк с Уол-Стрит",
+        year: 2005
+    },
+    {
+        movie: "American Psycho",
+        year: 2001
+    },
+    {
+        movie: "Fight Club",
+        year: 2004
+    },
+];
+
+let movie = Array.filter((item, index) => item.movie.length == 8 && item.year.length == 4)
