@@ -67,4 +67,7 @@ let movies = [
     },
 ];
 
-let movie = Array.filter((item, index) => item.movie.length == 8 && item.year.length == 4)
+let movie = movies.filter((item, index) => item.movie.length >= 8 && item.year == 2004)
+console.log(movie);
+
+
