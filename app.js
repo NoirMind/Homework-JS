@@ -81,3 +81,25 @@ console.log(girls.map({item} => {
 // {item} => {
 // return item   
 // }bu funksiya xar bir elementni qaytaradi
+
+// let kelin = girls.filter ({item} => {
+//     if(item.age > 18 && item.name.length == 5){
+//         return item 
+//     }
+// })
+
+// filter ichida bir nechta shart yozsa bo'ladi 
+
+
+// let input = document.querySelector('input');
+
+// input.addEventListener("input", (e) => {
+//     console.log(e.target.value);
+//     let filter = girsl.filter{(item) = >{
+//     return item.name.toLowerCase().icludes(e.target.value)
+//     }}
+// })
+// console.log(filter);
+
+// includes ichida kichik harf bilan yoziladi 
+// includes ichida qidirlayotgan qiymat yoziladi
