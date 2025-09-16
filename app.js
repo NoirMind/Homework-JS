@@ -103,3 +103,4 @@ console.log(girls.map({item} => {
 
 // includes ichida kichik harf bilan yoziladi 
 // includes ichida qidirlayotgan qiymat yoziladi
+
