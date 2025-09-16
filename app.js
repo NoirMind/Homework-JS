@@ -71,3 +71,13 @@ let movie = movies.filter((item, index) => item.movie.length >= 8 && item.year =
 console.log(movie);
 
 
+console.log(girls.map({item} => {
+    return item
+}));
+
+// bu yangi array qaytaradi va bu ichida return ishlaydi 
+// javob esa original array boladi
+
+// {item} => {
+// return item   
+// }bu funksiya xar bir elementni qaytaradi
