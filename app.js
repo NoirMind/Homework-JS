@@ -136,4 +136,50 @@
 // .split - stringni arrayga o'tqazish 
 // .join - stringa qaytarish 
 // .find - massiv orasidan shart bo'yicha qidirish 
-// .reverse - teskariga o'girish 
+// .reverse - teskariga o'girish
+
+
+// let tchr = "Azam,jon";
+// let newname = tchr.split(",").find(tchr => tchr === "Azam").toUpperCase();
+// let newtchrs = tchr.split(",").find(tchr => tchr === "jon");
+// let result = newname + newtchrs;
+// console.log(result);
+
+
+function ismChecker (ism){
+    // (ism) -> parameter
+    let half1  = Math.ceil(ism.length/2)
+    let response = ""
+    ism.split("").map((item, index)=>index < half1 ? response+= item.toUpperCase() : response+= item.toLowerCase())
+    return response
+}
+console.log(ismChecker("Bekzod"));
+// ismChecker("Bekzod") -> argument
+
+let arr = [9,6,3,8,5,4,7,1]
+
+//  output [1,6,3,8,5,4,7,9]
+
+
+let str = {
+    name:"Bekzod",
+     slice: function (text, start, end) {
+        let result = ""
+        for (let i = start; i < (end || text.length); i++) {
+            result += text[i]
+        }
+        this.name
+        return result
+    }
+}
+
+console.log();
+
+let finishedState = 10
+let decrementState = 5
+
+for(let initialState = 0; initialState< finishedState;initialState++){
+    if(initialState != decrementState){
+        console.log(initialState);
+    }
+}
