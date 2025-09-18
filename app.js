@@ -1,106 +1,139 @@
-// let a = 'Salom'
+// // let a = 'Salom'
 
-// for (i = 0; i > 10; i++) {
-//     console.log(i)
-// }
+// // for (i = 0; i > 10; i++) {
+// //     console.log(i)
+// // }
 
-// // prettier settings added
+// // // prettier settings added
 
-// let myBtn = document.querySelector("myBtn");
-// myBtn.addEventListener("click", function(){
-//     myBtn.computedStyleMap.display === "none"
-// })
+// // let myBtn = document.querySelector("myBtn");
+// // myBtn.addEventListener("click", function(){
+// //     myBtn.computedStyleMap.display === "none"
+// // })
 
-// // train
+// // // train
 
-// let cash = prompt("Valyutani kiriting");
-// let usd = 12450
-// let uzs = usd * cash;
+// // let cash = prompt("Valyutani kiriting");
+// // let usd = 12450
+// // let uzs = usd * cash;
 
-// alert (cash + " CASH " + uzs + " UZS ")
+// // alert (cash + " CASH " + uzs + " UZS ")
 
-// engkattasi (2,55,1)
+// // engkattasi (2,55,1)
 
-// function engkattasi(a,b,c){
-//     let maxval = []
-//     let minimum = []
-//     let medium = []
-//     let max = a 
-//     if(b<max && c<max) {
-//         console.log(max);
-//     }else if(max < b && c < b){
-//         console.log(b);
-//     }
-//     else{
-//         console.log(c);
-//     }
-//     return [...minimum, ...maxval, ...medium]
-// }
+// // function engkattasi(a,b,c){
+// //     let maxval = []
+// //     let minimum = []
+// //     let medium = []
+// //     let max = a 
+// //     if(b<max && c<max) {
+// //         console.log(max);
+// //     }else if(max < b && c < b){
+// //         console.log(b);
+// //     }
+// //     else{
+// //         console.log(c);
+// //     }
+// //     return [...minimum, ...maxval, ...medium]
+// // }
 
-// console.log([] + {});
-// console.log({} + []);
-
-
-// console.log(typeof null);
-
-let movies = [
-    {
-        movie: "The Dark Knight",
-    year: 1998
-},
-
-    {
-        movie: "120 Friends Oushen",
-        year: 2002
-    },
-    {
-        movie: "Волк с Уол-Стрит",
-        year: 2005
-    },
-    {
-        movie: "American Psycho",
-        year: 2001
-    },
-    {
-        movie: "Fight Club",
-        year: 2004
-    },
-];
-
-let movie = movies.filter((item, index) => item.movie.length >= 8 && item.year == 2004)
-console.log(movie);
+// // console.log([] + {});
+// // console.log({} + []);
 
 
-console.log(girls.map({item} => {
-    return item
-}));
+// // console.log(typeof null);
 
-// bu yangi array qaytaradi va bu ichida return ishlaydi 
-// javob esa original array boladi
+// let movies = [
+//     {
+//         movie: "The Dark Knight",
+//     year: 1998
+// },
 
-// {item} => {
-// return item   
-// }bu funksiya xar bir elementni qaytaradi
+//     {
+//         movie: "120 Friends Oushen",
+//         year: 2002
+//     },
+//     {
+//         movie: "Волк с Уол-Стрит",
+//         year: 2005
+//     },
+//     {
+//         movie: "American Psycho",
+//         year: 2001
+//     },
+//     {
+//         movie: "Fight Club",
+//         year: 2004
+//     },
+// ];
 
-// let kelin = girls.filter ({item} => {
-//     if(item.age > 18 && item.name.length == 5){
-//         return item 
-//     }
-// })
-
-// filter ichida bir nechta shart yozsa bo'ladi 
+// let movie = movies.filter((item, index) => item.movie.length >= 8 && item.year == 2004)
+// console.log(movie);
 
 
-// let input = document.querySelector('input');
+// console.log(girls.map({item} => {
+//     return item
+// }));
 
-// input.addEventListener("input", (e) => {
-//     console.log(e.target.value);
-//     let filter = girsl.filter{(item) = >{
-//     return item.name.toLowerCase().icludes(e.target.value)
-//     }}
-// })
-// console.log(filter);
+// // bu yangi array qaytaradi va bu ichida return ishlaydi 
+// // javob esa original array boladi
 
-// includes ichida kichik harf bilan yoziladi 
-// includes ichida qidirlayotgan qiymat yoziladi
+// // {item} => {
+// // return item   
+// // }bu funksiya xar bir elementni qaytaradi
 
+// // let kelin = girls.filter ({item} => {
+// //     if(item.age > 18 && item.name.length == 5){
+// //         return item 
+// //     }
+// // })
+
+// // filter ichida bir nechta shart yozsa bo'ladi 
+
+
+// // let input = document.querySelector('input');
+
+// // input.addEventListener("input", (e) => {
+// //     console.log(e.target.value);
+// //     let filter = girsl.filter{(item) = >{
+// //     return item.name.toLowerCase().icludes(e.target.value)
+// //     }}
+// // })
+// // console.log(filter);
+
+// // includes ichida kichik harf bilan yoziladi 
+// // includes ichida qidirlayotgan qiymat yoziladi
+
+
+// String Methods
+// .toLowerCase - Katta xarf 
+// .toUpperCase - Kichik xarf
+// .includes - shartga mosini qidirish
+// .trim - bosh joyni olish
+// .replace - o'rnini almashtirish
+// .splice - qirqib olish
+
+// Math Methods 
+
+// Math.max - eng katta son 
+// Math.min - eng kichik son
+// Math.ceil - tepaga 
+// Math.floor - pastga 
+// Math.abs - - ni + ga o'tqazish 
+// Math.round - butun songa birlashtirish 
+// Math.random - 0-1 o'rtasida taxminiy son
+// .Math.pow - darajaga oshirish
+
+// Array methods 
+// .push - oxiriga qo'shish 
+// .pop - oxiridan ayirish 
+// .unshift - boshiga qo'shish 
+// .shift - boshidan ayirish 
+// .indexOf - index bo'yicha qidirish 
+// .concat - array qatorini buzmay massiv qo'shsih 
+// .includes - bor yoqligini tekshirish 
+// .splice - qoshish ayirish uzgartirish 
+// .split - stringni arrayga o'tqazish 
+// .join - stringa qaytarish 
+// .find - massiv orasidan shart bo'yicha qidirish 
+// .reverse - teskariga o'girish 
