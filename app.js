@@ -184,3 +184,12 @@
 //     }
 // }
 
+let hello = document.querySelector(".hello");
+hello.style.width = "300px"
+hello.style.height = "300px"
+hello.style.background = "#ccc"
+
+hello.addEventListener("click", (event) =>{
+    console.log("x:", event.offsetX, "Y:", event.offsetY);
+    console.log(event.target.value);
+})
