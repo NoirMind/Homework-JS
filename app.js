@@ -184,12 +184,67 @@
 //     }
 // }
 
-let hello = document.querySelector(".hello");
-hello.style.width = "300px"
-hello.style.height = "300px"
-hello.style.background = "#ccc"
+// let hello = document.querySelector(".hello");
+// hello.style.width = "300px"
+// hello.style.height = "300px"
+// hello.style.background = "#ccc"
 
-hello.addEventListener("click", (event) =>{
-    console.log("x:", event.offsetX, "Y:", event.offsetY);
-    console.log(event.target.value);
+// hello.addEventListener("click", (event) =>{
+//     console.log("x:", event.offsetX, "Y:", event.offsetY);
+//     console.log(event.target.value);
+// })
+
+// function engKattasi(a, b, c){
+//     if(b<a&&c<a)return "katta " + a
+//     else if(a<b&&c<b) return "katta " + b
+//     else return "katta " + c
+// }
+// console.log(engKattasi(12,45,65))
+
+// let hello = document.querySelector(".hello")
+
+// fetch("https://jsonplaceholder.typicode.com/comments").then((data)=>data.json()).then((res)=>{
+//     console.log(res);
+//     let data = res.slice(0,40)
+//     data?
+//     data.map((item, index)=>{
+//         let div = document.createElement("div")
+//         div.classList.add("product")
+
+//         div.innerHTML=`
+//             <h2>${Object.keys(item)}</h2>
+//             <img src="https://picsum.photos/id/${index}/400/400" style="border-radius:20px"/>
+//             <h3>${item.name}</h3>
+//             <h3>${item.email}</h3>
+//         `
+//         hello.appendChild(div)
+//     })
+//     :console.log("data mavjud emas");
+        
+// }
+// )
+
+
+let hello = document.querySelector(".hello")
+
+fetch("https://jsonplaceholder.typicode.com/comments").then((data)=>data.json()).then((res)=>{
+    console.log(res);
+    let data = res.slice(0,40)
+    data?
+    data.map((item, index) =>{
+        let div = document.createElement("div")
+        div.classList.add("product")
+
+        div.innerHTML = `
+        <h2>${Object.keys(item)}</h2>
+        <img src="https://picsum.photos/id/${index}/400/400" style="border-radius:20px"/>
+        <h3>${item.name}</h3>
+        <h3>${item.email}</h3>`
+        hello.appendChild(div)
+    })
+    :console.log("data mavjud emas")
+}
+)
+
+fetch("./data.json").then((data)=>data.json()).then((res)=>{console.log(res);
 })
