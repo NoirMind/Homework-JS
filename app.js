@@ -264,4 +264,9 @@ return "Incorect"
 }}
 console.log(checkPassword("aslanbegiiii"));
 
+
+
+
+
+
 // Event loop o'qish kerak
