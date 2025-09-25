@@ -225,26 +225,43 @@
 // )
 
 
-let hello = document.querySelector(".hello")
+// let hello = document.querySelector(".hello")
 
-fetch("https://jsonplaceholder.typicode.com/comments").then((data)=>data.json()).then((res)=>{
-    console.log(res);
-    let data = res.slice(0,40)
-    data?
-    data.map((item, index) =>{
-        let div = document.createElement("div")
-        div.classList.add("product")
+// fetch("https://jsonplaceholder.typicode.com/comments").then((data)=>data.json()).then((res)=>{
+//     console.log(res);
+//     let data = res.slice(0,40)
+//     data?
+//     data.map((item, index) =>{
+//         let div = document.createElement("div")
+//         div.classList.add("product")
 
-        div.innerHTML = `
-        <h2>${Object.keys(item)}</h2>
-        <img src="https://picsum.photos/id/${index}/400/400" style="border-radius:20px"/>
-        <h3>${item.name}</h3>
-        <h3>${item.email}</h3>`
-        hello.appendChild(div)
-    })
-    :console.log("data mavjud emas")
+//         div.innerHTML = `
+//         <h2>${Object.keys(item)}</h2>
+//         <img src="https://picsum.photos/id/${index}/400/400" style="border-radius:20px"/>
+//         <h3>${item.name}</h3>
+//         <h3>${item.email}</h3>`
+//         hello.appendChild(div)
+//     })
+//     :console.log("data mavjud emas")
+// }
+// )
+
+// fetch("./data.json").then((data)=>data.json()).then((res)=>{console.log(res);
+// })
+
+ function check(name, surname, email){
+ return name.trim().toLowerCase() + " " + surname.trim().toLowerCase() + " " + email.toLowerCase()
 }
-)
+console.log(check("        ASLAN       ", "     IMINJANOV       ", "BEGGYPLAYY@GMAIL.COM"));
 
-fetch("./data.json").then((data)=>data.json()).then((res)=>{console.log(res);
-})
+function checkPassword(pswd){
+let newpsw = pswd.slice(0, 9).toUpperCase();
+if(newpsw.lenght == 9){
+return "Password correct!"
+}
+else{
+return "Incorect"
+}}
+console.log(checkPassword("aslanbegiiii"));
+
+// Event loop o'qish kerak
