@@ -350,7 +350,6 @@ function weight(age, height){
   }
   else{
     console.log("Ruxsat yo'q");
-    
   }
 }
 console.log(weight(24, 85.6));
