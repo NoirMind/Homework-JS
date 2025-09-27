@@ -309,3 +309,48 @@
 //     return Math.round(usd)
 // }
 // console.log(summ(451.562));
+
+// function yosh(age){
+//     return Math.floor(age)
+// }
+// console.log(yosh(37.9));
+
+
+// function sum(usd){
+//     return Math.floor(usd)
+// }
+// console.log(sum(19999.99));
+
+
+// function sum(a, b, c){
+//  if(a > b && a > c){
+//     return "A Katta " + a
+//  }else if(b > a && b > c){
+//     return "B Katta " + b
+//  }
+//  else{
+//     return "C Katta " + c
+//  }
+// }
+// console.log(sum(14, 45, 66));
+
+// function matn(soz, xarf){
+//     let arr = soz.split("");
+//     let newarr = arr.filter((item, index) => item.toLowerCase() == xarf.toLowerCase()).length
+//     console.log(newarr);
+    
+//     return newarr
+// }
+// console.log(matn("adwadasdawd", "A"));
+
+function weight(age, height){
+  let userWeight = Math.round(height)
+  if(userWeight > 65 && age > 18){
+    console.log("Ruxsat berildi");
+  }
+  else{
+    console.log("Ruxsat yo'q");
+    
+  }
+}
+console.log(weight(24, 85.6));
