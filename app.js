@@ -25,7 +25,7 @@
 // // //     let maxval = []
 // // //     let minimum = []
 // // //     let medium = []
-// // //     let max = a 
+// // //     let max = a
 // // //     if(b<max && c<max) {
 // // //         console.log(max);
 // // //     }else if(max < b && c < b){
@@ -39,7 +39,6 @@
 
 // // // console.log([] + {});
 // // // console.log({} + []);
-
 
 // // // console.log(typeof null);
 
@@ -70,26 +69,24 @@
 // // let movie = movies.filter((item, index) => item.movie.length >= 8 && item.year == 2004)
 // // console.log(movie);
 
-
 // // console.log(girls.map({item} => {
 // //     return item
 // // }));
 
-// // // bu yangi array qaytaradi va bu ichida return ishlaydi 
+// // // bu yangi array qaytaradi va bu ichida return ishlaydi
 // // // javob esa original array boladi
 
 // // // {item} => {
-// // // return item   
+// // // return item
 // // // }bu funksiya xar bir elementni qaytaradi
 
 // // // let kelin = girls.filter ({item} => {
 // // //     if(item.age > 18 && item.name.length == 5){
-// // //         return item 
+// // //         return item
 // // //     }
 // // // })
 
-// // // filter ichida bir nechta shart yozsa bo'ladi 
-
+// // // filter ichida bir nechta shart yozsa bo'ladi
 
 // // // let input = document.querySelector('input');
 
@@ -101,50 +98,47 @@
 // // // })
 // // // console.log(filter);
 
-// // // includes ichida kichik harf bilan yoziladi 
+// // // includes ichida kichik harf bilan yoziladi
 // // // includes ichida qidirlayotgan qiymat yoziladi
 
-
 // // String Methods
-// // .toLowerCase - Katta xarf 
+// // .toLowerCase - Katta xarf
 // // .toUpperCase - Kichik xarf
 // // .includes - shartga mosini qidirish
 // // .trim - bosh joyni olish
 // // .replace - o'rnini almashtirish
 // // .splice - qirqib olish
 
-// // Math Methods 
+// // Math Methods
 
-// // Math.max - eng katta son 
+// // Math.max - eng katta son
 // // Math.min - eng kichik son
-// // Math.ceil - tepaga 
-// // Math.floor - pastga 
-// // Math.abs - - ni + ga o'tqazish 
-// // Math.round - butun songa birlashtirish 
+// // Math.ceil - tepaga
+// // Math.floor - pastga
+// // Math.abs - - ni + ga o'tqazish
+// // Math.round - butun songa birlashtirish
 // // Math.random - 0-1 o'rtasida taxminiy son
 // // .Math.pow - darajaga oshirish
 
-// // Array methods 
-// // .push - oxiriga qo'shish 
-// // .pop - oxiridan ayirish 
-// // .unshift - boshiga qo'shish 
-// // .shift - boshidan ayirish 
-// // .indexOf - index bo'yicha qidirish 
-// // .concat - array qatorini buzmay massiv qo'shsih 
-// // .includes - bor yoqligini tekshirish 
-// // .splice - qoshish ayirish uzgartirish 
-// // .split - stringni arrayga o'tqazish 
-// // .join - stringa qaytarish 
-// // .find - massiv orasidan shart bo'yicha qidirish 
+// // Array methods
+// // .push - oxiriga qo'shish
+// // .pop - oxiridan ayirish
+// // .unshift - boshiga qo'shish
+// // .shift - boshidan ayirish
+// // .indexOf - index bo'yicha qidirish
+// // .concat - array qatorini buzmay massiv qo'shsih
+// // .includes - bor yoqligini tekshirish
+// // .splice - qoshish ayirish uzgartirish
+// // .split - stringni arrayga o'tqazish
+// // .join - stringa qaytarish
+// // .find - massiv orasidan shart bo'yicha qidirish
 // // .reverse - teskariga o'girish
-
 
 // // let tchr = "Azam,jon";
 // // let newname = tchr.split(",").find(tchr => tchr === "Azam").toUpperCase();
 // // let newtchrs = tchr.split(",").find(tchr => tchr === "jon");
 // // let result = newname + newtchrs;
 // // console.log(result);
-
 
 // function ismChecker (ism){
 //     // (ism) -> parameter
@@ -159,7 +153,6 @@
 // let arr = [9,6,3,8,5,4,7,1]
 
 // //  output [1,6,3,8,5,4,7,9]
-
 
 // let str = {
 //     name:"Bekzod",
@@ -220,10 +213,9 @@
 //         hello.appendChild(div)
 //     })
 //     :console.log("data mavjud emas");
-        
+
 // }
 // )
-
 
 // let hello = document.querySelector(".hello")
 
@@ -264,11 +256,6 @@
 // }}
 // console.log(checkPassword("aslanbegiiii"));
 
-
-
-
-
-
 // // Event loop o'qish kerak
 
 // function age(yosh){
@@ -281,12 +268,10 @@
 // }
 // console.log(age(22.6));
 
-
 // function summ(usd){
 //     return Math.round(usd)
 // }
 // console.log(summ(99.7));
-
 
 // function score(ball){
 //     return Math.round(ball)
@@ -298,12 +283,10 @@
 // }
 // console.log(summ(25000.6));
 
-
 // function weather(ob){
 //     return Math.round(ob)
 // }
 // console.log(weather(36.7));
-
 
 // function summ(usd){
 //     return Math.round(usd)
@@ -315,12 +298,10 @@
 // }
 // console.log(yosh(37.9));
 
-
 // function sum(usd){
 //     return Math.floor(usd)
 // }
 // console.log(sum(19999.99));
-
 
 // function sum(a, b, c){
 //  if(a > b && a > c){
@@ -338,18 +319,78 @@
 //     let arr = soz.split("");
 //     let newarr = arr.filter((item, index) => item.toLowerCase() == xarf.toLowerCase()).length
 //     console.log(newarr);
-    
+
 //     return newarr
 // }
 // console.log(matn("adwadasdawd", "A"));
 
-function weight(age, height){
-  let userWeight = Math.round(height)
-  if(userWeight > 65 && age > 18){
-    console.log("Ruxsat berildi");
-  }
-  else{
-    console.log("Ruxsat yo'q");
-  }
-}
-console.log(weight(24, 85.6));
+// function weight(age, height){
+//   let userWeight = Math.round(height)
+//   if(userWeight > 65 && age > 18){
+//     console.log("Ruxsat berildi");
+//   }
+//   else{
+//     console.log("Ruxsat yo'q");
+//   }
+// }
+// console.log(weight(24, 85.6));
+
+
+    let parentDiv = document.querySelector('.hello')
+    let searchInput = document.querySelector('#search')
+    let allProducts = []
+    let isLoading = true
+
+    // 📌 Функция для загрузки данных
+    function getAllProducts() {
+      return fetch('https://fakestoreapi.com/products')
+        .then(res => res.json())
+        .then(data => {
+          isLoading = false
+          allProducts = data
+          renderProducts(allProducts) // ✅ сразу показываем все
+        })
+    }
+
+    // 📌 Функция для рендера продуктов
+    function renderProducts(products) {
+      parentDiv.innerHTML = '' // очистим div перед рендером
+      if (products.length === 0) {
+        parentDiv.innerHTML = '<p>Hech narsa topilmadi ❌</p>'
+        return
+      }
+
+      products.forEach(item => {
+        let card = document.createElement('div')
+        card.style.border = "1px solid #ccc"
+        card.style.margin = "10px"
+        card.style.padding = "10px"
+        card.style.width = "200px"
+
+        card.innerHTML = `
+          <img src="${item.image}" width="100" height="100" />
+          <h3>${item.title}</h3>
+          <p>$${item.price}</p>
+        `
+        parentDiv.appendChild(card)
+      })
+    }
+
+    // 📌 Поиск / фильтр
+    searchInput.addEventListener('input', (e) => {
+      let value = e.target.value.toLowerCase().trim()
+      if (value === '') {
+        renderProducts(allProducts) // agar input bo'sh bo'lsa → barcha mahsulot
+      } else {
+        let filtered = allProducts.filter(item =>
+          item.title.toLowerCase().includes(value)
+        )
+        renderProducts(filtered) // faqat mos kelganlarini ko'rsatamiz
+      }
+    })
+
+    // 🚀 Запускаем загрузку
+    getAllProducts()
+
+    console.log(isLoading);
+    
