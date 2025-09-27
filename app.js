@@ -249,24 +249,63 @@
 // fetch("./data.json").then((data)=>data.json()).then((res)=>{console.log(res);
 // })
 
- function check(name, surname, email){
- return name.trim().toLowerCase() + " " + surname.trim().toLowerCase() + " " + email.toLowerCase()
-}
-console.log(check("        ASLAN       ", "     IMINJANOV       ", "BEGGYPLAYY@GMAIL.COM"));
+//  function check(name, surname, email){
+//  return name.trim().toLowerCase() + " " + surname.trim().toLowerCase() + " " + email.toLowerCase()
+// }
+// console.log(check("        ASLAN       ", "     IMINJANOV       ", "BEGGYPLAYY@GMAIL.COM"));
 
-function checkPassword(pswd){
-let newpsw = pswd.slice(0, 9).toUpperCase();
-if(newpsw.lenght == 9){
-return "Password correct!"
-}
-else{
-return "Incorect"
-}}
-console.log(checkPassword("aslanbegiiii"));
-
-
+// function checkPassword(pswd){
+// let newpsw = pswd.slice(0, 9).toUpperCase();
+// if(newpsw.lenght == 9){
+// return "Password correct!"
+// }
+// else{
+// return "Incorect"
+// }}
+// console.log(checkPassword("aslanbegiiii"));
 
 
 
 
-// Event loop o'qish kerak
+
+
+// // Event loop o'qish kerak
+
+// function age(yosh){
+// if (yosh == 22.6) {
+//     return Math.round(yosh)
+// }
+// else{
+//     return "22"
+// }
+// }
+// console.log(age(22.6));
+
+
+// function summ(usd){
+//     return Math.round(usd)
+// }
+// console.log(summ(99.7));
+
+
+// function score(ball){
+//     return Math.round(ball)
+// }
+// console.log(score(88.4));
+
+// function summ(usd){
+//     return Math.round(usd)
+// }
+// console.log(summ(25000.6));
+
+
+// function weather(ob){
+//     return Math.round(ob)
+// }
+// console.log(weather(36.7));
+
+
+// function summ(usd){
+//     return Math.round(usd)
+// }
+// console.log(summ(451.562));
