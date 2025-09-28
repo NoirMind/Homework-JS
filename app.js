@@ -336,61 +336,66 @@
 // console.log(weight(24, 85.6));
 
 
-    let parentDiv = document.querySelector('.hello')
-    let searchInput = document.querySelector('#search')
-    let allProducts = []
-    let isLoading = true
+// let parentDiv = document.querySelector('.hello')
+// let searchInput = document.querySelector('#search')
+// let allProducts = []
+// let isLoading = true
 
-    // 📌 Функция для загрузки данных
-    function getAllProducts() {
-      return fetch('https://fakestoreapi.com/products')
-        .then(res => res.json())
-        .then(data => {
-          isLoading = false
-          allProducts = data
-          renderProducts(allProducts) // ✅ сразу показываем все
-        })
-    }
+// // 📌 Функция для загрузки данных
+// function getAllProducts() {
+//   return fetch('https://fakestoreapi.com/products')
+//     .then(res => res.json())
+//     .then(data => {
+//       isLoading = false
+//       allProducts = data
+    //       renderProducts(allProducts) // ✅ сразу показываем все
+    //     })
+    // }
 
-    // 📌 Функция для рендера продуктов
-    function renderProducts(products) {
-      parentDiv.innerHTML = '' // очистим div перед рендером
-      if (products.length === 0) {
-        parentDiv.innerHTML = '<p>Hech narsa topilmadi ❌</p>'
-        return
-      }
+    // // 📌 Функция для рендера продуктов
+    // function renderProducts(products) {
+    //   parentDiv.innerHTML = '' // очистим div перед рендером
+    //   if (products.length === 0) {
+    //     parentDiv.innerHTML = '<p>Hech narsa topilmadi ❌</p>'
+    //     return
+    //   }
 
-      products.forEach(item => {
-        let card = document.createElement('div')
-        card.style.border = "1px solid #ccc"
-        card.style.margin = "10px"
-        card.style.padding = "10px"
-        card.style.width = "200px"
+    //   products.forEach(item => {
+    //     let card = document.createElement('div')
+    //     card.style.border = "1px solid #ccc"
+    //     card.style.margin = "10px"
+    //     card.style.padding = "10px"
+    //     card.style.width = "200px"
 
-        card.innerHTML = `
-          <img src="${item.image}" width="100" height="100" />
-          <h3>${item.title}</h3>
-          <p>$${item.price}</p>
-        `
-        parentDiv.appendChild(card)
-      })
-    }
+    //     card.innerHTML = `
+    //       <img src="${item.image}" width="100" height="100" />
+    //       <h3>${item.title}</h3>
+    //       <p>$${item.price}</p>
+    //     `
+    //     parentDiv.appendChild(card)
+    //   })
+    // }
 
-    // 📌 Поиск / фильтр
-    searchInput.addEventListener('input', (e) => {
-      let value = e.target.value.toLowerCase().trim()
-      if (value === '') {
-        renderProducts(allProducts) // agar input bo'sh bo'lsa → barcha mahsulot
-      } else {
-        let filtered = allProducts.filter(item =>
-          item.title.toLowerCase().includes(value)
-        )
-        renderProducts(filtered) // faqat mos kelganlarini ko'rsatamiz
-      }
-    })
+    // // 📌 Поиск / фильтр
+    // searchInput.addEventListener('input', (e) => {
+    //   let value = e.target.value.toLowerCase().trim()
+    //   if (value === '') {
+    //     renderProducts(allProducts) // agar input bo'sh bo'lsa → barcha mahsulot
+    //   } else {
+    //     let filtered = allProducts.filter(item =>
+    //       item.title.toLowerCase().includes(value)
+    //     )
+    //     renderProducts(filtered) // faqat mos kelganlarini ko'rsatamiz
+    //   }
+    // })
 
-    // 🚀 Запускаем загрузку
-    getAllProducts()
+    // // 🚀 Запускаем загрузку
+    // getAllProducts()
 
-    console.log(isLoading);
+    // console.log(isLoading);
     
+// function weather(ob){
+// return Math.floor(ob)
+// }
+// console.log(weather(27.8));
+
