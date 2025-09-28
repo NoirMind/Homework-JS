@@ -399,3 +399,17 @@
 // }
 // console.log(weather(27.8));
 
+// function price(narx){
+//   return Math.floor(narx)
+// }
+// console.log(price(12000.512));
+
+// function students(count){
+//   return Math.floor(count)
+// }
+// console.log(students(99.9));
+
+// function age(yosh){
+//   return Math.ceil(yosh)
+// }
+// console.log(age(27.6));
