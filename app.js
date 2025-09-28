@@ -463,3 +463,42 @@
 //   return Math.ceil(seat / 3)
 // }
 // console.log(taxi(29));
+
+// function shop(non1, non2, non3){
+//   return Math.min(non1, non2, non3)
+// }
+// console.log(shop(4500, 4600,8400));
+
+// function shop(phone1, phone2, phone3){
+//   return Math.min(phone1, phone2, phone3)
+// }
+// console.log(shop(550, 700, 620));
+// function shop(student1, student2, student3){
+//   return Math.min(student1, student2, student3)
+// }
+// console.log(shop(19, 21, 18));
+
+// function shop(tv1, tv2, tv3){
+//   return Math.min(tv1, tv2, tv3)
+// }
+// console.log(shop(1955, 2100, 1815));
+
+// function shop(tf1, tf2, tf3){
+//   return Math.min(tf1, tf2, tf3)
+// }
+// console.log(shop(200, 400, 201));
+
+// function score(bal1, bal2, bal3){
+//   return Math.max(bal1, bal2, bal3)
+// }
+// console.log(score(44, 66, 98));
+
+// function phone(tell1, tell2, tell3){
+//   return Math.max(tell1, tell2, tell3)
+// }
+// console.log(phone(700, 1400, 99999));
+
+function phone(fot, fot2, fot3){
+  return Math.max(fot, fot2, fot3)
+}
+console.log(phone(54, 45, 14));
