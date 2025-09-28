@@ -413,3 +413,8 @@
 //   return Math.ceil(yosh)
 // }
 // console.log(age(27.6));
+
+// function summ(price){
+//   return Math.ceil(price)
+// }
+// console.log(summ(14515.788));
