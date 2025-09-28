@@ -418,3 +418,48 @@
 //   return Math.ceil(price)
 // }
 // console.log(summ(14515.788));
+
+// function weather(ob){
+//   return Math.ceil(ob)
+// }
+// console.log(weather(33.4));
+
+// function dollar(usd){
+//   return Math.ceil(usd)
+// }
+// console.log(dollar(100.2));
+
+// function rooms(count){
+//   return Math.ceil(count / 25)
+// }
+// console.log(rooms(101));
+
+// function car(seat){
+//   return Math.ceil(seat / 4)
+// }
+// console.log(car(19));
+
+// function fabric(choco){
+//   return Math.ceil(choco / 18)
+// }
+// console.log(fabric(73));
+
+// 2) function univer(stud){
+//   return Math.ceil(stud / 28)
+// }
+// console.log(univer(255));
+
+// 3) function cafe(seat){
+//   return Math.ceil(seat / 6)
+// }
+// console.log(cafe(47));
+
+// function shop(base){
+//   return Math.ceil(base / 24)
+// }
+// console.log(shop(230));
+
+// 5) function taxi(seat){
+//   return Math.ceil(seat / 3)
+// }
+// console.log(taxi(29));
