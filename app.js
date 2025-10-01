@@ -562,14 +562,56 @@
 // }
 // console.log(ism(["Milk", "Bread", "Eggs"]));
 
-// function car(cars){
+// 2) function car(cars){
 //   cars.pop()
 //   return cars
 // }
 // console.log(car(["Cobalt", "Nexia", "Malibu"]));
 
-function item(item1){
-  item1.pop()
-  return item1
-}
-console.log(item(["Samsung", "Apple", "Xiaomi", "Realme"]));
+// 3)function item(item1){
+//   item1.pop()
+//   return item1
+// }
+// console.log(item(["Samsung", "Apple", "Xiaomi", "Realme"]));
+
+// 4) function phon(tel){
+//   tel.pop()
+//   return phon
+// }
+// console.log(phon(["Rock", "Pop", "Jazz", "Rap"]));
+
+// 5) function gor(city){
+//   city.pop()
+//   return city
+// }
+// console.log(gor(["Tashkent", "Andijan", "Namangan", "Bukhara"]));
+
+// 1) function fruit(meva){
+//   meva.shift()
+//   return meva
+// }
+// console.log(meva(["Anor", "Banana", "Olma"]));
+
+// 2) function mash(car){
+//   car.shift()
+//   return car
+// }
+// console.log(mash(["bmw", "tesla", "audi"]));
+
+// 3) function ph(tel){
+//   tel.shift()
+//   return tel
+// }
+// console.log(ph(["redmi", "samsung", "iphone"]));
+
+// 4) function gor(city){
+//   city.shift()
+//   return city
+// }
+// console.log(gor(["andijan", "namangan", "quqon"]));
+
+// 5) function music(song){
+//   song.shift()
+//   return song
+// }
+// console.log(music(["rock", "pop", "jazz"]));
