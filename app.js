@@ -498,7 +498,78 @@
 // }
 // console.log(phone(700, 1400, 99999));
 
-function phone(fot, fot2, fot3){
-  return Math.max(fot, fot2, fot3)
+// function phone(fot, fot2, fot3){
+//   return Math.max(fot, fot2, fot3)
+// }
+// console.log(phone(54, 45, 14));
+
+// function cars(speed1, speed2, speed3){
+//   return Math.max(speed1, speed2, speed3)
+// }
+// console.log(cars(180, 220, 340));
+
+
+// function shop(student1, student2, student3){
+// return Math.max(student1, student2, student3)
+// }
+// console.log(shop(1400,250,544));
+
+// function student(ball){
+//   return Math.random().Math.ceil()
+// }
+// console.log(student());
+
+// function son(){
+//   return Math.ceil(Math.random() * 12 + " " + "Dushanba")
+// }
+// console.log(son());
+
+// function haftaKuni(){
+//   let son = Math.ceil(Math.random() * 7); // 1 dan 7 gacha son chiqadi
+//   return son;
+// }
+// console.log(haftaKuni());
+
+// function haftaKuni(){
+//   let kunlar = ["Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba", "Yakshanba"];
+//   let son = Math.ceil(Math.random() * 7); 
+//   return kunlar[son - 1]; // indeks 0 dan boshlanadi
+// }
+// console.log(haftaKuni());
+
+// function user(user1){
+//   let oy = 12
+//   return user1 * Math.pow(1.1, oy)
+// }
+// console.log(user(4800));
+
+// function nom(ism){
+//   ism.pop("Jaxon");
+//   return ism
+// }
+// console.log(nom(["Axror", "Bosit", "Jaxon"]));
+
+
+// function nom(ism){
+//   ism.pop()
+//   return ism
+// }
+// console.log(nom(["Baxor", "Qosim", "Shaxzod","Aziz", "Aslan"]));
+
+// 1) function ism(nom){
+//   nom.pop()
+//   return nom
+// }
+// console.log(ism(["Milk", "Bread", "Eggs"]));
+
+// function car(cars){
+//   cars.pop()
+//   return cars
+// }
+// console.log(car(["Cobalt", "Nexia", "Malibu"]));
+
+function item(item1){
+  item1.pop()
+  return item1
 }
-console.log(phone(54, 45, 14));
+console.log(item(["Samsung", "Apple", "Xiaomi", "Realme"]));
