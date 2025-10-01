@@ -666,7 +666,7 @@
 // }
 // console.log(fruit(["Bexi", "Olma"], ["Nok", "Anor"]));
 
-function auto(car1, car2){
-  return car1.concat(car2)
-}
-console.log(auto(["bmw", "mers"], ["audi", "tesla"]));
+// function auto(car1, car2){
+//   return car1.concat(car2)
+// }
+// console.log(auto(["bmw", "mers"], ["audi", "tesla"]));
