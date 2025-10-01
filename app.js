@@ -615,3 +615,58 @@
 //   return song
 // }
 // console.log(music(["rock", "pop", "jazz"]));
+
+// 1) function fruit(meva){
+//   meva.unshift("Olma")
+//   return meva
+// }
+// console.log(fruit(["Banana", "Ananas"]));
+
+// 2) function mash(car){
+//   car.unshift("Tesla")
+//   return car
+// }
+// console.log(mash(["BMW", "Audi"]));
+
+// 3) function lang(yaz){
+//   yaz.unshift("JavaScript")
+//   return yaz
+// }
+// console.log(lang(["Python", "C#"]));
+
+// 4) function sport(type){
+//   type.unshift("Football")
+//   return type
+// }
+// console.log(sport(["Tennis", "Basketball"]));
+
+// 5) function gor(city){
+//   city.unshift("Tashkent")
+//   return city
+// }
+// console.log(gor(["Andijan", "Namangan"]));
+
+// function base(item1, item2){
+//   return item1.concat(item2);
+// }
+// console.log(base(["Bexi", "Olma"], ["Cola", "Pepsi"]));
+
+// function base(item, item2){
+//   return item.concat(item2)
+// }
+// console.log(base(["Phone", "Usb"], ["water"]));
+
+// function number(son, son1){
+//   return son.concat(son1)
+// }
+// console.log(number([77, 44, 55,], [66, 88, 99]));
+
+// function fruit(meva1, meva2){
+//   return meva1.concat(meva2)
+// }
+// console.log(fruit(["Bexi", "Olma"], ["Nok", "Anor"]));
+
+// function auto(car1, car2){
+//   return car1.concat(car2)
+// }
+// console.log(auto(["bmw", "mers"], ["audi", "tesla"]));
