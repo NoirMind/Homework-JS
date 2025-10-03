@@ -676,27 +676,52 @@
 // }
 // console.log(fruit(["Olma", "Banan", "Apelsin"]));
 
-function meva(fruit){
-    return fruit.includes("Banan")
-}
-console.log(meva(["Banan", "Anor", "Apelsin"]));
+// function meva(fruit){
+//     return fruit.includes("Banan")
+// }
+// console.log(meva(["Banan", "Anor", "Apelsin"]));
 
-function car(cars){
-    return cars.includes("Tesla")
+// function car(cars){
+//     return cars.includes("Tesla")
+// }
+// console.log(car(["Tesla", "Audi", "BMW"]));
+
+// function tel(pon){
+//     return pon.includes("iPhone")
+// }
+// console.log(tel(["iPhone", "Galaxy", "Xiomi"]));
+
+// function city(shar){
+//     return shar.includes("Tashkent")
+// }
+// console.log(city(["Tashkent", "Buxoro", "Samarqand"]));
+
+// function song(type){
+//     return type.includes("Jazz")
+// }
+// console.log(song(["Jazz", "Rock", "Pop"]));
+
+function meva(fruit){
+    return fruit.indexOf("Banan")
 }
-console.log(car(["Tesla", "Audi", "BMW"]));
+console.log(meva(["Anor", "Banan", "Olma"]));
+
+function mash(car){
+    return car.indexOf("Malibu")
+}
+console.log(mash(["Malibu", "Tesla", "Aud"]));
 
 function tel(pon){
-    return pon.includes("iPhone")
+    return pon.indexOf("iPhone")
 }
-console.log(tel(["iPhone", "Galaxy", "Xiomi"]));
+console.log(tel(["iPhone", "Xioami", "redmi"]));
 
-function city(shar){
-    return shar.includes("Tashkent")
+function shar(city){
+    return city.indexOf("Bukhara")
 }
-console.log(city(["Tashkent", "Buxoro", "Samarqand"]));
+console.log(shar(["Bukhara", "tashkent"]));
 
-function song(type){
-    return type.includes("Jazz")
+function mus(song){
+    return song.indexOf("Rock")
 }
-console.log(song(["Jazz", "Rock", "Pop"]));
+console.log(mus(["Rock", "Jazz"]));
