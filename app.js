@@ -751,27 +751,37 @@
 // }
 // console.log(price([1200, 800, 1500, 600]));
 
+// function son(num){
+//     return num.filter(sonlar => sonlar > 40)
+// }
+// console.log(son([45, 40, 56, 78, 98]));
+
+// function gor(shar){
+//     return shar.filter(shar => shar.length > 7)
+// }
+// console.log(gor(["Tashkent", "Namangan", "Andijon", "Buxoro"]));
+
+// function car(mash){
+//     return mash.filter(nom => nom === "Tesla")
+// }
+// console.log(car(["BMW", "Audi", "Tesla", "Chevrolet"]));
+
+// function price(sum){
+//     return sum.filter(sum => sum < 1000)
+// }
+// console.log(price([200, 1000, 400, 700, 600]));
+
+// function stud(ball){
+//     return ball.filter(ball => ball > 90)
+// }
+// console.log(stud([100, 80, 101, 75, 95, 99]));
+
 function son(num){
-    return num.filter(sonlar => sonlar > 40)
+    return num.map(num => num * 3)
 }
-console.log(son([45, 40, 56, 78, 98]));
+console.log(son([5, 10, 15, 20]));
 
-function gor(shar){
-    return shar.filter(shar => shar.length > 7)
+function ism(nom){
+    return nom.map(nomlar => nomlar.charAt(0).toUpperCase() + nomlar.slice(1));
 }
-console.log(gor(["Tashkent", "Namangan", "Andijon", "Buxoro"]));
-
-function car(mash){
-    return mash.filter(nom => nom === "Tesla")
-}
-console.log(car(["BMW", "Audi", "Tesla", "Chevrolet"]));
-
-function price(sum){
-    return sum.filter(sum => sum < 1000)
-}
-console.log(price([200, 1000, 400, 700, 600]));
-
-function stud(ball){
-    return ball.filter(ball => ball > 90)
-}
-console.log(stud([100, 80, 101, 75, 95, 99]));
+console.log(ism(["html", "css", "js"]));
