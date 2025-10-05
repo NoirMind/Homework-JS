@@ -883,3 +883,33 @@
 //     return son.slice(1, 3)
 // }
 // console.log(mus(["Rock", "Pop", "Jazz", "Rap"]));
+
+function meva(fruit){
+    fruit.splice(1, 2, "Nok")
+    return fruit
+}
+console.log(meva(["Olma", "Banana", "Anor", "Uzum"]));
+
+function car(aut){
+aut.splice(1, 1, "Mercedes")
+return aut
+}
+console.log(car(["BMW", "Audi", "Tesla", "BYD"]));
+
+function col(ran){
+    ran.splice(0, 2, "Black")
+    return ran
+}
+console.log(col(["Red", "Green", "Blue", "Yellow"]));
+
+function son(raq){
+    raq.splice(2, 1, "OnePlus")
+    return raq
+}
+console.log(son(["iPhone", "Samsung", "Xiaomi"]));
+
+function gor(shar){
+shar.splice(2, 1)
+    return shar
+}
+console.log(gor(["Namangan", "Andijon", "Toshkent", "Farg‘ona"]));
