@@ -914,27 +914,52 @@
 // }
 // console.log(gor(["Namangan", "Andijon", "Toshkent", "Farg‘ona"]));
 
-function shop(narx){
-    return narx.reduce((price, sum) => price + sum, 0)
-}
-console.log(shop([2500, 1800, 3200, 4000]));
+// function shop(narx){
+//     return narx.reduce((price, sum) => price + sum, 0)
+// }
+// console.log(shop([2500, 1800, 3200, 4000]));
 
-function team(goal){
-    return goal.reduce((son, jami) => son + jami, 0)
-}
-console.log(team([2, 1, 3, 0, 4]));
+// function team(goal){
+//     return goal.reduce((son, jami) => son + jami, 0)
+// }
+// console.log(team([2, 1, 3, 0, 4]));
 
-function work(salary){
-    return salary.reduce((price, sum) => price + sum, 0)
-}
-console.log(work([4500, 5200, 4800, 6000]));
+// function work(salary){
+//     return salary.reduce((price, sum) => price + sum, 0)
+// }
+// console.log(work([4500, 5200, 4800, 6000]));
 
-function som(pul){
-    return pul.reduce((item, index) => item + index, 0)
-}
-console.log(som([78, 85, 92, 66, 74]));
+// function som(pul){
+//     return pul.reduce((item, index) => item + index, 0)
+// }
+// console.log(som([78, 85, 92, 66, 74]));
 
-function base(pol){
-    return pol.reduce((price, sum) => price + sum, 0)
+// function base(pol){
+//     return pol.reduce((price, sum) => price + sum, 0)
+// }
+// console.log(base([3, 5, 2, 6, 4]));
+
+function stud(score){
+    return score.every(score => score > 1000)
 }
-console.log(base([3, 5, 2, 6, 4]));
+console.log(stud([1002, 1004, 1005, 1100]));
+
+function shop(sum){
+    return sum.every(item => item > 80)
+}
+console.log(shop([84, 85, 89, 100]));
+
+function bat(foiz){
+    return foiz.every(item => item > 20)
+}
+console.log(bat([21, 45, 68, 100]));
+
+function gor(shar){
+    return shar.every(item => item.length > 5)
+}
+console.log(gor(["tashaaa", "namaaaa", "baxaaaa"]));
+
+function car(speed){
+    return speed.every(item => item < 100)
+}
+console.log(car([95, 45, 80, 99]));
