@@ -726,27 +726,37 @@
 // }
 // console.log(mus(["Rock", "Jazz"]));
 
-function meva(fruit){
-    return fruit.find(olma => olma === "Banana")
-}
- console.log(meva(["Apple", "Orange", "Banana"]));
+// function meva(fruit){
+//     return fruit.find(olma => olma === "Banana")
+// }
+//  console.log(meva(["Apple", "Orange", "Banana"]));
+
+// function son(num){
+//     return num.find(number => number > 40)
+// }
+// console.log(son([15, 25, 35, 45, 55]));
+
+// function car(mash){
+//     return mash.find(mashina => mashina === "Tesla")
+// }
+// console.log(car(["BMW", "Audi", "Tesla", "Chevrolet"]));
+
+// function song(type){
+//     return type.find(mus => mus === "jazz")
+// }
+// console.log(song(["rock", "pop", "jazz", "rap"]));
+
+// function price(big){
+//     return big.find(usd => usd > 1000)
+// }
+// console.log(price([1200, 800, 1500, 600]));
 
 function son(num){
-    return num.find(number => number > 40)
+    return num.filter(sonlar => sonlar > 40)
 }
-console.log(son([15, 25, 35, 45, 55]));
+console.log(son([45, 40, 56, 78, 98]));
 
-function car(mash){
-    return mash.find(mashina => mashina === "Tesla")
+function gor(shar){
+    return shar.filter(shar => shar.length > 7)
 }
-console.log(car(["BMW", "Audi", "Tesla", "Chevrolet"]));
-
-function song(type){
-    return type.find(mus => mus === "jazz")
-}
-console.log(song(["rock", "pop", "jazz", "rap"]));
-
-function price(big){
-    return big.find(usd => usd > 1000)
-}
-console.log(price([1200, 800, 1500, 600]));
+console.log(gor(["Tashkent", "Namangan", "Andijon", "Buxoro"]));
