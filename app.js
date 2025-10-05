@@ -760,3 +760,18 @@ function gor(shar){
     return shar.filter(shar => shar.length > 7)
 }
 console.log(gor(["Tashkent", "Namangan", "Andijon", "Buxoro"]));
+
+function car(mash){
+    return mash.filter(nom => nom === "Tesla")
+}
+console.log(car(["BMW", "Audi", "Tesla", "Chevrolet"]));
+
+function price(sum){
+    return sum.filter(sum => sum < 1000)
+}
+console.log(price([200, 1000, 400, 700, 600]));
+
+function stud(ball){
+    return ball.filter(ball => ball > 90)
+}
+console.log(stud([100, 80, 101, 75, 95, 99]));
