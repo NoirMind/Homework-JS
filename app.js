@@ -776,12 +776,110 @@
 // }
 // console.log(stud([100, 80, 101, 75, 95, 99]));
 
-function son(num){
-    return num.map(num => num * 3)
-}
-console.log(son([5, 10, 15, 20]));
+// function son(num){
+//     return num.map(num => num * 3)
+// }
+// console.log(son([5, 10, 15, 20]));
 
-function ism(nom){
-    return nom.map(nomlar => nomlar.charAt(0).toUpperCase() + nomlar.slice(1));
-}
-console.log(ism(["html", "css", "js"]));
+// function ism(nom){
+//     return nom.map(nomlar => nomlar.charAt(0).toUpperCase() + nomlar.slice(1));
+// }
+// console.log(ism(["html", "css", "js"]));
+
+// function item(no){
+//     return no.map(maxs => maxs.indexOf())
+// }
+// console.log(item([2, 4, 6, 8]));
+
+// function son(num){
+//     return num.map(num => num * 2)
+// }
+// console.log(son([2, 4, 6]));
+
+// function nom(item) {
+//     return `Men yahshi ko'raman ${item.map(olma => olma).join(", ")}`;
+// }
+// console.log(nom(["olma", "banan", "anor"]));
+
+// function raq(so){
+//     return so.map(son => son + 5)
+// }
+// console.log(raq([10, 20, 30, 40]));
+
+// function kot(mush){
+//     return mush.map(kot => kot.toUpperCase())
+// }
+// console.log(kot(["bekzod", "faris"]));
+
+// function bol(sonni){
+//     return sonni.map(son => son / 2)
+// }
+// console.log(bol([1000, 2000, 3000]));
+
+// function ismlar(ism){
+//     ism.forEach(ism => console.log(ism))
+// }
+// console.log(ismlar(["Baxor", "Nozi", "Axmad"]));
+
+// function son(num){
+//  num.forEach(num => console.log(num + num))
+// }
+// console.log(son([5, 5, 5]));
+
+// function meva(fruit){
+// fruit.forEach(fruit => console.log(`Men yahshi ko'raman ${fruit}`)
+// )
+// }
+// console.log(meva(["olam", "banan", "anor"]));
+
+// function raq(num){
+//  num.forEach(num => console.log(num + 10))
+// }
+// console.log(raq([5, 5, 5]));
+
+// function nom(ism){
+//  ism.forEach(ism => console.log(ism.charAt(0).toUpperCase() + ism.slice(1))) 
+// }
+// console.log(nom(["aslan", "bekzod"]));
+
+// function meva(fruit){
+// fruit.forEach(fruit => console.log(`men sevaman ${fruit}`)
+// )
+// }
+// console.log(meva(["anor", "banan"]));
+
+// function son(rap){
+// rap.forEach(rap => console.log(rap * 2))
+// }
+// console.log(son([44, 88, 77]));
+
+// function gor(shar){
+// shar.forEach(shar => console.log(shar.length)
+// )
+// }
+// console.log(gor(["tash", "nam", "and", "buxo"]));
+
+// function meva(fruit){
+// return fruit.slice(1, 3)
+// }
+// console.log(meva(["BMW", "Audi", "Tesla", "BYD"]));
+
+// function meva(fruit){
+//     return fruit.slice(0, 2)
+// }
+// console.log(meva(["Olma", "Anor", "Uzum", "Nok"]));
+
+// function son(raq){
+//     return raq.slice(3)
+// }
+// console.log(son([10, 20, 30, 40, 50]));
+
+// function gor(shar){
+//     return shar.slice(1, 3)
+// }
+// console.log(gor(["Namangan", "Andijon", "Toshkent", "Farg‘ona"]));
+
+// function mus(son){
+//     return son.slice(1, 3)
+// }
+// console.log(mus(["Rock", "Pop", "Jazz", "Rap"]));
