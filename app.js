@@ -676,27 +676,77 @@
 // }
 // console.log(fruit(["Olma", "Banan", "Apelsin"]));
 
+// function meva(fruit){
+//     return fruit.includes("Banan")
+// }
+// console.log(meva(["Banan", "Anor", "Apelsin"]));
+
+// function car(cars){
+//     return cars.includes("Tesla")
+// }
+// console.log(car(["Tesla", "Audi", "BMW"]));
+
+// function tel(pon){
+//     return pon.includes("iPhone")
+// }
+// console.log(tel(["iPhone", "Galaxy", "Xiomi"]));
+
+// function city(shar){
+//     return shar.includes("Tashkent")
+// }
+// console.log(city(["Tashkent", "Buxoro", "Samarqand"]));
+
+// function song(type){
+//     return type.includes("Jazz")
+// }
+// console.log(song(["Jazz", "Rock", "Pop"]));
+
+// function meva(fruit){
+//     return fruit.indexOf("Banan")
+// }
+// console.log(meva(["Anor", "Banan", "Olma"]));
+
+// function mash(car){
+//     return car.indexOf("Malibu")
+// }
+// console.log(mash(["Malibu", "Tesla", "Aud"]));
+
+// function tel(pon){
+//     return pon.indexOf("iPhone")
+// }
+// console.log(tel(["iPhone", "Xioami", "redmi"]));
+
+// function shar(city){
+//     return city.indexOf("Bukhara")
+// }
+// console.log(shar(["Bukhara", "tashkent"]));
+
+// function mus(song){
+//     return song.indexOf("Rock")
+// }
+// console.log(mus(["Rock", "Jazz"]));
+
 function meva(fruit){
-    return fruit.includes("Banan")
+    return fruit.find(olma => olma === "Banana")
 }
-console.log(meva(["Banan", "Anor", "Apelsin"]));
+ console.log(meva(["Apple", "Orange", "Banana"]));
 
-function car(cars){
-    return cars.includes("Tesla")
+function son(num){
+    return num.find(number => number > 40)
 }
-console.log(car(["Tesla", "Audi", "BMW"]));
+console.log(son([15, 25, 35, 45, 55]));
 
-function tel(pon){
-    return pon.includes("iPhone")
+function car(mash){
+    return mash.find(mashina => mashina === "Tesla")
 }
-console.log(tel(["iPhone", "Galaxy", "Xiomi"]));
-
-function city(shar){
-    return shar.includes("Tashkent")
-}
-console.log(city(["Tashkent", "Buxoro", "Samarqand"]));
+console.log(car(["BMW", "Audi", "Tesla", "Chevrolet"]));
 
 function song(type){
-    return type.includes("Jazz")
+    return type.find(mus => mus === "jazz")
 }
-console.log(song(["Jazz", "Rock", "Pop"]));
+console.log(song(["rock", "pop", "jazz", "rap"]));
+
+function price(big){
+    return big.find(usd => usd > 1000)
+}
+console.log(price([1200, 800, 1500, 600]));
