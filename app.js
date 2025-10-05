@@ -939,27 +939,52 @@
 // }
 // console.log(base([3, 5, 2, 6, 4]));
 
-function stud(score){
-    return score.every(score => score > 1000)
-}
-console.log(stud([1002, 1004, 1005, 1100]));
+// function stud(score){
+//     return score.every(score => score > 1000)
+// }
+// console.log(stud([1002, 1004, 1005, 1100]));
 
-function shop(sum){
-    return sum.every(item => item > 80)
-}
-console.log(shop([84, 85, 89, 100]));
+// function shop(sum){
+//     return sum.every(item => item > 80)
+// }
+// console.log(shop([84, 85, 89, 100]));
 
-function bat(foiz){
-    return foiz.every(item => item > 20)
+// function bat(foiz){
+//     return foiz.every(item => item > 20)
+// }
+// console.log(bat([21, 45, 68, 100]));
+
+// function gor(shar){
+//     return shar.every(item => item.length > 5)
+// }
+// console.log(gor(["tashaaa", "namaaaa", "baxaaaa"]));
+
+// function car(speed){
+//     return speed.every(item => item < 100)
+// }
+// console.log(car([95, 45, 80, 99]));
+
+function shop(price){
+    return price.some(item => item > 5000)
 }
-console.log(bat([21, 45, 68, 100]));
+console.log(shop([5001, 4500, 3200, 12000]));
+
+function stud(ball){
+    return ball.some(item => item > 100)
+}
+console.log(stud([45, 101, 55, 68]));
+
+function tel(bat){
+    return bat.some(item => item > 50)
+}
+console.log(tel([51, 62, 45, 12]));
 
 function gor(shar){
-    return shar.every(item => item.length > 5)
+    return shar.some(item => item.length > 8)
 }
-console.log(gor(["tashaaa", "namaaaa", "baxaaaa"]));
+console.log(gor(["aaaaaaaaad", "awdad", "adwawddawd"]));
 
 function car(speed){
-    return speed.every(item => item < 100)
+    return speed.some(item => item > 120)
 }
-console.log(car([95, 45, 80, 99]));
+console.log(car([44, 122, 101, 55]));
