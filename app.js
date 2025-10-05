@@ -884,32 +884,57 @@
 // }
 // console.log(mus(["Rock", "Pop", "Jazz", "Rap"]));
 
-function meva(fruit){
-    fruit.splice(1, 2, "Nok")
-    return fruit
-}
-console.log(meva(["Olma", "Banana", "Anor", "Uzum"]));
+// function meva(fruit){
+//     fruit.splice(1, 2, "Nok")
+//     return fruit
+// }
+// console.log(meva(["Olma", "Banana", "Anor", "Uzum"]));
 
-function car(aut){
-aut.splice(1, 1, "Mercedes")
-return aut
-}
-console.log(car(["BMW", "Audi", "Tesla", "BYD"]));
+// function car(aut){
+// aut.splice(1, 1, "Mercedes")
+// return aut
+// }
+// console.log(car(["BMW", "Audi", "Tesla", "BYD"]));
 
-function col(ran){
-    ran.splice(0, 2, "Black")
-    return ran
-}
-console.log(col(["Red", "Green", "Blue", "Yellow"]));
+// function col(ran){
+//     ran.splice(0, 2, "Black")
+//     return ran
+// }
+// console.log(col(["Red", "Green", "Blue", "Yellow"]));
 
-function son(raq){
-    raq.splice(2, 1, "OnePlus")
-    return raq
-}
-console.log(son(["iPhone", "Samsung", "Xiaomi"]));
+// function son(raq){
+//     raq.splice(2, 1, "OnePlus")
+//     return raq
+// }
+// console.log(son(["iPhone", "Samsung", "Xiaomi"]));
 
-function gor(shar){
-shar.splice(2, 1)
-    return shar
+// function gor(shar){
+// shar.splice(2, 1)
+//     return shar
+// }
+// console.log(gor(["Namangan", "Andijon", "Toshkent", "Farg‘ona"]));
+
+function shop(narx){
+    return narx.reduce((price, sum) => price + sum, 0)
 }
-console.log(gor(["Namangan", "Andijon", "Toshkent", "Farg‘ona"]));
+console.log(shop([2500, 1800, 3200, 4000]));
+
+function team(goal){
+    return goal.reduce((son, jami) => son + jami, 0)
+}
+console.log(team([2, 1, 3, 0, 4]));
+
+function work(salary){
+    return salary.reduce((price, sum) => price + sum, 0)
+}
+console.log(work([4500, 5200, 4800, 6000]));
+
+function som(pul){
+    return pul.reduce((item, index) => item + index, 0)
+}
+console.log(som([78, 85, 92, 66, 74]));
+
+function base(pol){
+    return pol.reduce((price, sum) => price + sum, 0)
+}
+console.log(base([3, 5, 2, 6, 4]));
