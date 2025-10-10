@@ -964,27 +964,42 @@
 // }
 // console.log(car([95, 45, 80, 99]));
 
-function shop(price){
-    return price.some(item => item > 5000)
-}
-console.log(shop([5001, 4500, 3200, 12000]));
+// function shop(price){
+//     return price.some(item => item > 5000)
+// }
+// console.log(shop([5001, 4500, 3200, 12000]));
 
-function stud(ball){
-    return ball.some(item => item > 100)
-}
-console.log(stud([45, 101, 55, 68]));
+// function stud(ball){
+//     return ball.some(item => item > 100)
+// }
+// console.log(stud([45, 101, 55, 68]));
 
-function tel(bat){
-    return bat.some(item => item > 50)
-}
-console.log(tel([51, 62, 45, 12]));
+// function tel(bat){
+//     return bat.some(item => item > 50)
+// }
+// console.log(tel([51, 62, 45, 12]));
 
-function gor(shar){
-    return shar.some(item => item.length > 8)
-}
-console.log(gor(["aaaaaaaaad", "awdad", "adwawddawd"]));
+// function gor(shar){
+//     return shar.some(item => item.length > 8)
+// }
+// console.log(gor(["aaaaaaaaad", "awdad", "adwawddawd"]));
 
-function car(speed){
-    return speed.some(item => item > 120)
+// function car(speed){
+//     return speed.some(item => item > 120)
+// }
+// console.log(car([44, 122, 101, 55]));
+
+// function stud(score){
+//     return score.reduce(item => item > 4000)
+// }
+// console.log(stud([4000, 5400, 6200]));
+
+// function aslan(ism) {
+//     return ism.every(item => item.length = 4)
+// }
+// console.log(aslan(["baxrom", "aziz", "botir"]));
+
+function ism(nom){
+    return 
 }
-console.log(car([44, 122, 101, 55]));
+console.log(ism("Baxrom"));
