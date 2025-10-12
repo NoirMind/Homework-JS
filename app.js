@@ -964,27 +964,93 @@
 // }
 // console.log(car([95, 45, 80, 99]));
 
-function shop(price){
-    return price.some(item => item > 5000)
-}
-console.log(shop([5001, 4500, 3200, 12000]));
+// function shop(price){
+//     return price.some(item => item > 5000)
+// }
+// console.log(shop([5001, 4500, 3200, 12000]));
 
-function stud(ball){
-    return ball.some(item => item > 100)
-}
-console.log(stud([45, 101, 55, 68]));
+// function stud(ball){
+//     return ball.some(item => item > 100)
+// }
+// console.log(stud([45, 101, 55, 68]));
 
-function tel(bat){
-    return bat.some(item => item > 50)
-}
-console.log(tel([51, 62, 45, 12]));
+// function tel(bat){
+//     return bat.some(item => item > 50)
+// }
+// console.log(tel([51, 62, 45, 12]));
 
-function gor(shar){
-    return shar.some(item => item.length > 8)
-}
-console.log(gor(["aaaaaaaaad", "awdad", "adwawddawd"]));
+// function gor(shar){
+//     return shar.some(item => item.length > 8)
+// }
+// console.log(gor(["aaaaaaaaad", "awdad", "adwawddawd"]));
 
-function car(speed){
-    return speed.some(item => item > 120)
+// function car(speed){
+//     return speed.some(item => item > 120)
+// }
+// console.log(car([44, 122, 101, 55]));
+
+// function stud(score){
+//     return score.reduce(item => item > 4000)
+// }
+// console.log(stud([4000, 5400, 6200]));
+
+// function aslan(ism) {
+//     return ism.every(item => item.length = 4)
+// }
+// console.log(aslan(["baxrom", "aziz", "botir"]));
+
+// function ism(nom){
+//     return 
+// }
+// console.log(ism("Baxrom"));
+
+function katt(bi){
+    return bi.toUpperCase()
 }
-console.log(car([44, 122, 101, 55]));
+console.log(katt("aslan"));
+
+
+function ism(nom){
+    return nom.toLowerCase();
+}
+console.log(ism("ASLAN"));
+
+function pswd(ps){
+    return ps.includes("123")
+}
+console.log(pswd("Aslan123"));
+
+function uz(oz){
+    return oz.replace("Salom", "Assalomu aleykum")
+}
+console.log(uz("Salom"));
+
+function im(nm){
+    return nm.slice(0, 3)
+}
+console.log(im("Karimov"));
+
+function arr(mev){
+    return mev.split()
+}
+console.log(arr("olma, banan, anor"));
+
+function bosh(joy){
+    return joy.trim()
+}
+console.log(bosh("         Bekzod      "));
+
+function sum(usd){
+    return Math.round(usd)
+}
+console.log(sum(45.6));
+
+function pul(narx){
+    return Math.floor(narx)
+}
+console.log(pul(45.9));
+
+function tep(aga){
+    return Math.ceil(aga)
+}
+console.log(tep(45.1));
