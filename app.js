@@ -1054,3 +1054,33 @@ function tep(aga){
     return Math.ceil(aga)
 }
 console.log(tep(45.1));
+
+function ran(num){
+    return Math.random(num)
+}
+console.log(ran());
+
+function bigg(numm){
+    return Math.max(...numm)
+}
+console.log(bigg([4500, 4600, 4700]));
+
+function ismlar(nomlar){
+    return nomlar.forEach(nomlar => console.log(`Hurmatli ${nomlar} sizning buyurtmangiz tayyor!`))
+}
+console.log(ismlar(["Aziz", "Bekzod", "Jasur"]));
+
+function eng(kattasi){
+    return kattasi.map(item => item * 1.2)
+}
+console.log(eng([10, 200, 300]));
+
+function raq(sonla){
+    return sonla.filter(item => item > 500)
+}
+console.log(raq([120, 560, 700, 450, 980]));
+
+function ismm(nomm){
+    return nomm.find(object => object.id === 2)
+}
+console.log(ismm([{id:1, name: "Ali"}, {id: 2, name: "Bekzod"}]));
