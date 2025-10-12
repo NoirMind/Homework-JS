@@ -999,7 +999,58 @@
 // }
 // console.log(aslan(["baxrom", "aziz", "botir"]));
 
-function ism(nom){
-    return 
+// function ism(nom){
+//     return 
+// }
+// console.log(ism("Baxrom"));
+
+function katt(bi){
+    return bi.toUpperCase()
 }
-console.log(ism("Baxrom"));
+console.log(katt("aslan"));
+
+
+function ism(nom){
+    return nom.toLowerCase();
+}
+console.log(ism("ASLAN"));
+
+function pswd(ps){
+    return ps.includes("123")
+}
+console.log(pswd("Aslan123"));
+
+function uz(oz){
+    return oz.replace("Salom", "Assalomu aleykum")
+}
+console.log(uz("Salom"));
+
+function im(nm){
+    return nm.slice(0, 3)
+}
+console.log(im("Karimov"));
+
+function arr(mev){
+    return mev.split()
+}
+console.log(arr("olma, banan, anor"));
+
+function bosh(joy){
+    return joy.trim()
+}
+console.log(bosh("         Bekzod      "));
+
+function sum(usd){
+    return Math.round(usd)
+}
+console.log(sum(45.6));
+
+function pul(narx){
+    return Math.floor(narx)
+}
+console.log(pul(45.9));
+
+function tep(aga){
+    return Math.ceil(aga)
+}
+console.log(tep(45.1));
