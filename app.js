@@ -1054,3 +1054,13 @@ function tep(aga){
     return Math.ceil(aga)
 }
 console.log(tep(45.1));
+
+function ran(num){
+    return Math.random(num)
+}
+console.log(ran());
+
+function bigg(numm){
+    return Math.max(...numm)
+}
+console.log(bigg([4500, 4600, 4700]));
