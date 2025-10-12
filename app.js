@@ -1084,3 +1084,28 @@ function ismm(nomm){
     return nomm.find(object => object.id === 2)
 }
 console.log(ismm([{id:1, name: "Ali"}, {id: 2, name: "Bekzod"}]));
+
+function ind(ex){
+    return ex.findIndex(item => item === "Malibu")
+}
+console.log(ind(["Nexia", "Cobalt", "Malibu"]));
+
+function tel(pox){
+    return pox.includes("iPhone")
+}
+console.log(tel(["Samsung", "iPhone", "Redmi"]));
+
+function sonlarr(numlar){
+    return numlar.some(item => item > 80)
+}
+console.log(sonlarr([45, 55, 78, 90]));
+
+function maosh(oylik){
+    return oylik.every(item => item > 3000000)
+}
+console.log(maosh([3500000, 4500000, 5500000]));
+
+function pull(balanc){
+    return balanc.reduce((sum, item) => sum + item, 0)
+}
+console.log(pull([1200, 3400, 5600, 800]));
