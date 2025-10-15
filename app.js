@@ -1004,108 +1004,143 @@
 // }
 // console.log(ism("Baxrom"));
 
-function katt(bi){
-    return bi.toUpperCase()
-}
-console.log(katt("aslan"));
+// function katt(bi){
+//     return bi.toUpperCase()
+// }
+// console.log(katt("aslan"));
 
 
-function ism(nom){
-    return nom.toLowerCase();
-}
-console.log(ism("ASLAN"));
+// function ism(nom){
+//     return nom.toLowerCase();
+// }
+// console.log(ism("ASLAN"));
 
-function pswd(ps){
-    return ps.includes("123")
-}
-console.log(pswd("Aslan123"));
+// function pswd(ps){
+//     return ps.includes("123")
+// }
+// console.log(pswd("Aslan123"));
 
-function uz(oz){
-    return oz.replace("Salom", "Assalomu aleykum")
-}
-console.log(uz("Salom"));
+// function uz(oz){
+//     return oz.replace("Salom", "Assalomu aleykum")
+// }
+// console.log(uz("Salom"));
 
-function im(nm){
-    return nm.slice(0, 3)
-}
-console.log(im("Karimov"));
+// function im(nm){
+//     return nm.slice(0, 3)
+// }
+// console.log(im("Karimov"));
 
-function arr(mev){
-    return mev.split()
-}
-console.log(arr("olma, banan, anor"));
+// function arr(mev){
+//     return mev.split()
+// }
+// console.log(arr("olma, banan, anor"));
 
-function bosh(joy){
-    return joy.trim()
-}
-console.log(bosh("         Bekzod      "));
+// function bosh(joy){
+//     return joy.trim()
+// }
+// console.log(bosh("         Bekzod      "));
 
-function sum(usd){
-    return Math.round(usd)
-}
-console.log(sum(45.6));
+// function sum(usd){
+//     return Math.round(usd)
+// }
+// console.log(sum(45.6));
 
-function pul(narx){
-    return Math.floor(narx)
-}
-console.log(pul(45.9));
+// function pul(narx){
+//     return Math.floor(narx)
+// }
+// console.log(pul(45.9));
 
-function tep(aga){
-    return Math.ceil(aga)
-}
-console.log(tep(45.1));
+// function tep(aga){
+//     return Math.ceil(aga)
+// }
+// console.log(tep(45.1));
 
-function ran(num){
-    return Math.random(num)
-}
-console.log(ran());
+// function ran(num){
+//     return Math.random(num)
+// }
+// console.log(ran());
 
-function bigg(numm){
-    return Math.max(...numm)
-}
-console.log(bigg([4500, 4600, 4700]));
+// function bigg(numm){
+//     return Math.max(...numm)
+// }
+// console.log(bigg([4500, 4600, 4700]));
 
-function ismlar(nomlar){
-    return nomlar.forEach(nomlar => console.log(`Hurmatli ${nomlar} sizning buyurtmangiz tayyor!`))
-}
-console.log(ismlar(["Aziz", "Bekzod", "Jasur"]));
+// function ismlar(nomlar){
+//     return nomlar.forEach(nomlar => console.log(`Hurmatli ${nomlar} sizning buyurtmangiz tayyor!`))
+// }
+// console.log(ismlar(["Aziz", "Bekzod", "Jasur"]));
 
-function eng(kattasi){
-    return kattasi.map(item => item * 1.2)
-}
-console.log(eng([10, 200, 300]));
+// function eng(kattasi){
+//     return kattasi.map(item => item * 1.2)
+// }
+// console.log(eng([10, 200, 300]));
 
-function raq(sonla){
-    return sonla.filter(item => item > 500)
-}
-console.log(raq([120, 560, 700, 450, 980]));
+// function raq(sonla){
+//     return sonla.filter(item => item > 500)
+// }
+// console.log(raq([120, 560, 700, 450, 980]));
 
-function ismm(nomm){
-    return nomm.find(object => object.id === 2)
-}
-console.log(ismm([{id:1, name: "Ali"}, {id: 2, name: "Bekzod"}]));
+// function ismm(nomm){
+//     return nomm.find(object => object.id === 2)
+// }
+// console.log(ismm([{id:1, name: "Ali"}, {id: 2, name: "Bekzod"}]));
 
-function ind(ex){
-    return ex.findIndex(item => item === "Malibu")
-}
-console.log(ind(["Nexia", "Cobalt", "Malibu"]));
+// function ind(ex){
+//     return ex.findIndex(item => item === "Malibu")
+// }
+// console.log(ind(["Nexia", "Cobalt", "Malibu"]));
 
-function tel(pox){
-    return pox.includes("iPhone")
-}
-console.log(tel(["Samsung", "iPhone", "Redmi"]));
+// function tel(pox){
+//     return pox.includes("iPhone")
+// }
+// console.log(tel(["Samsung", "iPhone", "Redmi"]));
 
-function sonlarr(numlar){
-    return numlar.some(item => item > 80)
-}
-console.log(sonlarr([45, 55, 78, 90]));
+// function sonlarr(numlar){
+//     return numlar.some(item => item > 80)
+// }
+// console.log(sonlarr([45, 55, 78, 90]));
 
-function maosh(oylik){
-    return oylik.every(item => item > 3000000)
-}
-console.log(maosh([3500000, 4500000, 5500000]));
+// function maosh(oylik){
+//     return oylik.every(item => item > 3000000)
+// }
+// console.log(maosh([3500000, 4500000, 5500000]));
 
-function pull(balanc){
-    return balanc.reduce((sum, item) => sum + item, 0)
-}
-console.log(pull([1200, 3400, 5600, 800]));
+// function pull(balanc){
+//     return balanc.reduce((sum, item) => sum + item, 0)
+// }
+// console.log(pull([1200, 3400, 5600, 800]));
+
+// function data(){
+
+// }
+// console.log(data("salom"))
+
+// function xarf(nom){
+//     return nom.indexOf("s")
+// }
+// console.log(xarf("aslan"));
+
+// let menBerganQiymat = prompt("qiymat kiriting")
+
+// function checkCharacter(xarf, soz){
+//  if(xarf.length == 1){
+//    if(soz.includes(xarf)){
+//      return soz.indexOf(xarf)
+//    }
+//    else{
+//     return "Siz bergan xarf so'z ichida mavjud emas"
+//    }
+//  }
+//  else{
+//     return "Siz bergan qiymat 1 xarflik emas"
+//  }
+// }
+// console.log(checkCharacter(menBerganQiymat, "salom"));
+
+let nom = document.createElement('h1');
+let text = document.createTextNode("Uxxxxxxxxxxx")
+
+nom.appendChild(text);
+
+let box = document.querySelector(".box")
+box.appendChild(nom)
