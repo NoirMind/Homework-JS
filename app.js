@@ -1167,3 +1167,5 @@ button.addEventListener('mouseover', function () {
 button.addEventListener('mouseout', function () {
   button.style.backgroundColor = "randomColor"; // eski rang
 });
+
+
