@@ -1137,10 +1137,33 @@
 // }
 // console.log(checkCharacter(menBerganQiymat, "salom"));
 
-let nom = document.createElement('h1');
-let text = document.createTextNode("Uxxxxxxxxxxx")
+// let button = document.querySelector('.btn');
+// let count = 0
+// button.addEventListener('click', function () {
+//     count++
+//    console.log(`Tugma bosildi! ${count} bosildi`);
+   
+// })
 
-nom.appendChild(text);
+// let button = document.querySelector('.btn');
+// const randomColor = `rgb(${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)})`;
+// button.addEventListener('mouseover', function () {
+//     button.style.color = randomColor
+// })
 
-let box = document.querySelector(".box")
-box.appendChild(nom)
+// button.addEventListener("mouseout", function () {
+//     button.style.backgroundcolor = "grey"
+// })
+
+let button = document.querySelector('.btn');
+
+// Tugma ustiga kursor borganda
+button.addEventListener('mouseover', function () {
+  const randomColor = `rgb(${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)})`;
+  button.style.backgroundColor = randomColor;
+});
+
+// Tugma ustidan kursor chiqqanda
+button.addEventListener('mouseout', function () {
+  button.style.backgroundColor = "randomColor"; // eski rang
+});
