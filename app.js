@@ -1155,17 +1155,72 @@
 //     button.style.backgroundcolor = "grey"
 // })
 
-let button = document.querySelector('.btn');
+// let button = document.querySelector('.btn');
 
-// Tugma ustiga kursor borganda
-button.addEventListener('mouseover', function () {
-  const randomColor = `rgb(${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)})`;
-  button.style.backgroundColor = randomColor;
-});
+// // Tugma ustiga kursor borganda
+// button.addEventListener('mouseover', function () {
+//   const randomColor = `rgb(${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)})`;
+//   button.style.backgroundColor = randomColor;
+// });
 
-// Tugma ustidan kursor chiqqanda
-button.addEventListener('mouseout', function () {
-  button.style.backgroundColor = "randomColor"; // eski rang
-});
+// // Tugma ustidan kursor chiqqanda
+// button.addEventListener('mouseout', function () {
+//   button.style.backgroundColor = "randomColor"; // eski rang
+// });
 
+// const myPromise = new Promise((resolve, reject) => {
+//     let qarz = true
+//     if(qarz){
+//         resolve("Qarz qabul qilindi")
+//     }
+//     else{
+//         reject("Qarz olinmadi")
+//     }
+// })
 
+// myPromise.then((data) => {
+//     console.log(data);
+    
+// })
+
+// let but = document.querySelector('.add');
+// let lis = document.querySelector('.list')
+// but.addEventListener('click', function () {
+//     let div = document.createElement('ul');
+//     div.appendChild(li)
+// })
+
+// lis.appendChild(div)
+// let but = document.querySelector('.add');
+// let lis = document.querySelector('.list');
+// let count = 0;
+
+// but.addEventListener('click', function () {
+//     if(but){
+//         count++;
+//     let li = document.createElement('li' + "button")
+//     li.textContent = `Element ${count}`;
+//     lis.appendChild(li);
+//     }
+//     else{
+        
+//     }
+// });
+
+// let but = document.querySelector('.btn')
+// let tex = document.querySelector('.text')
+// let holat = true
+
+// but.addEventListener('click', function() {
+//     if(holat === true){
+//         holat = !holat
+//         tex.textContent = "Salom, Bekzod"
+//     }
+//     else if(holat === false){
+//         holat = !holat
+//         tex.textContent = "Yaxshi kayfiyat!"
+//     }
+//     else{
+//         return tex
+//     }
+// })
