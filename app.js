@@ -1224,3 +1224,17 @@
 //         return tex
 //     }
 // })
+
+let but = document.querySelector('.btn')
+let p = document.querySelector('.output')
+let ism = document.querySelector('.name').value; 
+
+but.addEventListener('click', function(){
+    if(ism === " "){
+        return console.log("Ism kiritilmadi!");
+    }
+    else{
+        console.log("Kiritilgan ism:", ism);
+        
+    }
+})
