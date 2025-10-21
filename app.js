@@ -1251,7 +1251,38 @@
 //     ol.innerHTML += `<li>${name}</li>`
 // })
 
-const an = document.querySelector('a')
-console.log(an.getAttribute('href'));
-an.innerHTML = "<b>Go To Crazy Main Page</b>"
-an.setAttribute('href', 'https://www.monsterenergy.com')
+// const an = document.querySelector('a')
+// console.log(an.getAttribute('href'));
+// an.innerHTML = "<b>Go To Crazy Main Page</b>"
+// an.setAttribute('href', 'https://www.monsterenergy.com')
+
+// const doc = document.querySelector('p')
+// doc.classList.remove("error")
+// doc.classList.add("fuck")
+
+// const parag = document.querySelectorAll('.parag p')
+
+// parag.forEach((item) => {
+//     if(item.textContent.includes("error")){
+//         item.classList.add('error')
+//     }
+//     else if(item.textContent.includes("success")){
+//         item.classList.add('success')
+//     }
+//     else{
+//         item.classList.add('noth')
+//     }
+// })
+
+// const article = document.querySelector('article')
+// Array.from(article.children).forEach((child) => {
+//     if(child.includes('Lorem')){
+//         child.classList.add('lorem')
+//     }
+// })
+
+const btn = document.querySelector('#click-btn')
+btn.addEventListener('click', function () {
+    console.log("Button bosildi!");
+    
+})
