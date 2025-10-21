@@ -1225,16 +1225,33 @@
 //     }
 // })
 
-let but = document.querySelector('.btn')
-let p = document.querySelector('.output')
-let ism = document.querySelector('.name').value; 
+// let but = document.querySelector('.btn')
+// let p = document.querySelector('.output')
+// let ism = document.querySelector('.name').value; 
 
-but.addEventListener('click', function(){
-    if(ism === " "){
-        return console.log("Ism kiritilmadi!");
-    }
-    else{
-        console.log("Kiritilgan ism:", ism);
+// but.addEventListener('click', function(){
+//     if(ism === " "){
+//         return console.log("Ism kiritilmadi!");
+//     }
+//     else{
+//         console.log("Kiritilgan ism:", ism);
         
-    }
-})
+//     }
+// })
+
+// const text = document.querySelectorAll('.list-item')
+// text.forEach((item) => {
+//     item.textContent += " darslari" 
+// })
+
+// const names = ['Bekzod', 'Jobir', 'Komil']
+// const ol = document.querySelector('ol')
+
+// names.forEach((name) => {
+//     ol.innerHTML += `<li>${name}</li>`
+// })
+
+const an = document.querySelector('a')
+console.log(an.getAttribute('href'));
+an.innerHTML = "<b>Go To Crazy Main Page</b>"
+an.setAttribute('href', 'https://www.monsterenergy.com')
