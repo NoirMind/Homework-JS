@@ -1251,7 +1251,63 @@
 //     ol.innerHTML += `<li>${name}</li>`
 // })
 
-const an = document.querySelector('a')
-console.log(an.getAttribute('href'));
-an.innerHTML = "<b>Go To Crazy Main Page</b>"
-an.setAttribute('href', 'https://www.monsterenergy.com')
+// const an = document.querySelector('a')
+// console.log(an.getAttribute('href'));
+// an.innerHTML = "<b>Go To Crazy Main Page</b>"
+// an.setAttribute('href', 'https://www.monsterenergy.com')
+
+// const doc = document.querySelector('p')
+// doc.classList.remove("error")
+// doc.classList.add("fuck")
+
+// const parag = document.querySelectorAll('.parag p')
+
+// parag.forEach((item) => {
+//     if(item.textContent.includes("error")){
+//         item.classList.add('error')
+//     }
+//     else if(item.textContent.includes("success")){
+//         item.classList.add('success')
+//     }
+//     else{
+//         item.classList.add('noth')
+//     }
+// })
+
+// const article = document.querySelector('article')
+// Array.from(article.children).forEach((child) => {
+//     if(child.includes('Lorem')){
+//         child.classList.add('lorem')
+//     }
+// })
+
+// const btn = document.querySelector('#click-btn')
+// btn.addEventListener('click', function () {
+//     console.log("Button bosildi!");
+    
+// })
+
+const text = document.querySelectorAll('li')
+text.forEach((item) => {
+    item.addEventListener('mouseover', (e) => {
+        e.target.style.textDecoration = "line-through"
+        e.target.style.background = "purple"
+        e.target.style.padding = "15px"
+        e.target.style.borderRadius = "25px"
+        e.target.style.marginTop = "10px"
+        e.target.style.transition = "transform 0.3s ease";
+        e.target.style.transform = "scale(1.1)"
+    })
+})
+
+text.forEach((item) => {
+    item.addEventListener('mouseout', (e) => {
+        e.target.style.textDecoration = "none";
+        e.target.style.background = "transparent";
+        e.target.style.padding = "5px";
+        e.target.style.borderRadius = "0px";
+        e.target.style.marginTop = "0px";
+        e.target.style.transition = "transform 0.3s ease";
+        e.target.style.transform = "scale(1)";
+    })
+})
