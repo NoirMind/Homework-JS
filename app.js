@@ -1286,6 +1286,16 @@
 //     console.log("Button bosildi!");
     
 // })
+const ul = document.querySelector('ul')
+
+const btn = document.querySelector('#click-btn')
+btn.addEventListener('click', () => {
+    const li = document.createElement('li')
+    li.textContent = "Something Now"
+
+
+    ul.appendChild(li)
+})
 
 const text = document.querySelectorAll('li')
 text.forEach((item) => {
