@@ -1281,8 +1281,33 @@
 //     }
 // })
 
-const btn = document.querySelector('#click-btn')
-btn.addEventListener('click', function () {
-    console.log("Button bosildi!");
+// const btn = document.querySelector('#click-btn')
+// btn.addEventListener('click', function () {
+//     console.log("Button bosildi!");
     
+// })
+
+const text = document.querySelectorAll('li')
+text.forEach((item) => {
+    item.addEventListener('mouseover', (e) => {
+        e.target.style.textDecoration = "line-through"
+        e.target.style.background = "purple"
+        e.target.style.padding = "15px"
+        e.target.style.borderRadius = "25px"
+        e.target.style.marginTop = "10px"
+        e.target.style.transition = "transform 0.3s ease";
+        e.target.style.transform = "scale(1.1)"
+    })
+})
+
+text.forEach((item) => {
+    item.addEventListener('mouseout', (e) => {
+        e.target.style.textDecoration = "none";
+        e.target.style.background = "transparent";
+        e.target.style.padding = "5px";
+        e.target.style.borderRadius = "0px";
+        e.target.style.marginTop = "0px";
+        e.target.style.transition = "transform 0.3s ease";
+        e.target.style.transform = "scale(1)";
+    })
 })
