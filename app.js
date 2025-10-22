@@ -1344,22 +1344,19 @@ const modal = document.querySelector('#modal')
 const closeBtn = document.querySelector('#close-btn')
 const overlay = document.querySelector('#overlay')
 
-showBtn.addEventListener('click', () => {
+const addRemove = () => {
+    modal.classList.add('hidden')
+    overlay.classList.add('hidden')
+}
+
+const delRemove = () => {
     modal.classList.remove('hidden')
-    modal
     overlay.classList.remove('hidden')
-})
+}
 
-closeBtn.addEventListener('click', () => {
-    modal.classList.add('hidden')
-    overlay.classList.add('hidden')
-})
-
-overlay.addEventListener('click', () => {
-    modal.classList.add('hidden')
-    overlay.classList.add('hidden')
-})
-
+showBtn.addEventListener('click', delRemove)
+closeBtn.addEventListener('click', addRemove)
+overlay.addEventListener('click', delRemove)
 document.addEventListener('keydown', (e) => {
     if(e.key == "Escape"){
         modal.classList.add('hidden')
