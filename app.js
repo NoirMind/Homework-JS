@@ -1286,38 +1286,55 @@
 //     console.log("Button bosildi!");
     
 // })
-const ul = document.querySelector('ul')
+// const ul = document.querySelector('ul')
 
-const btn = document.querySelector('#click-btn')
-btn.addEventListener('click', () => {
-    const li = document.createElement('li')
-    li.textContent = "Something Now"
+// const btn = document.querySelector('#click-btn')
+// btn.addEventListener('click', () => {
+//     const li = document.createElement('li')
+//     li.textContent = "Something Now"
 
 
-    ul.appendChild(li)
-})
+//     ul.appendChild(li)
+// })
 
-const text = document.querySelectorAll('li')
-text.forEach((item) => {
-    item.addEventListener('mouseover', (e) => {
-        e.target.style.textDecoration = "line-through"
-        e.target.style.background = "purple"
-        e.target.style.padding = "15px"
-        e.target.style.borderRadius = "25px"
-        e.target.style.marginTop = "10px"
-        e.target.style.transition = "transform 0.3s ease";
-        e.target.style.transform = "scale(1.1)"
-    })
-})
+// const text = document.querySelectorAll('li')
+// text.forEach((item) => {
+//     item.addEventListener('mouseover', (e) => {
+//         e.target.style.textDecoration = "line-through"
+//         e.target.style.background = "purple"
+//         e.target.style.padding = "15px"
+//         e.target.style.borderRadius = "25px"
+//         e.target.style.marginTop = "10px"
+//         e.target.style.transition = "transform 0.3s ease";
+//         e.target.style.transform = "scale(1.1)"
+//     })
+// })
 
-text.forEach((item) => {
-    item.addEventListener('mouseout', (e) => {
-        e.target.style.textDecoration = "none";
-        e.target.style.background = "transparent";
-        e.target.style.padding = "5px";
-        e.target.style.borderRadius = "0px";
-        e.target.style.marginTop = "0px";
-        e.target.style.transition = "transform 0.3s ease";
-        e.target.style.transform = "scale(1)";
-    })
-})
+
+// text.forEach((item) => {
+//     item.addEventListener('mouseout', (e) => {
+//         e.target.style.textDecoration = "none";
+//         e.target.style.background = "transparent";
+//         e.target.style.padding = "5px";
+//         e.target.style.borderRadius = "0px";
+//         e.target.style.marginTop = "0px";
+//         e.target.style.transition = "transform 0.3s ease";
+//         e.target.style.transform = "scale(1)";
+//     })
+// })
+
+// const ul = document.querySelector('ul')
+// const btn = document.querySelector('#click-btn')
+// btn.addEventListener('click', () => {
+//     const line = document.createElement('li')
+//     line.textContent = "new button"
+     
+
+//     ul.appendChild(line)
+// }) 
+
+// ul.addEventListener('click', (e) => {
+//     if(e.target.textContent.includes("new")){
+//         e.target.remove()
+//     }
+// })
