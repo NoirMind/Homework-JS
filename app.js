@@ -1363,3 +1363,20 @@ document.addEventListener('keydown', (e) => {
         overlay.classList.add('hidden')
     }
 })
+
+const person = `
+{
+    "name": "Aslan",
+    "age": 27,
+    "city": "Namangan",
+    "adress": {
+        "street": "lola ko'chasi, 106 uy",
+        "zipcode": 160100
+    },
+    "toodoos": ["eat", "train", "study"]
+}`
+
+    JSON.parse(person)
+
+person.filter(item => item.includes('aslan') && item == 27)
+console.log(person);
