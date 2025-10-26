@@ -1381,18 +1381,30 @@ document.addEventListener('keydown', (e) => {
 // person.filter(item => item.includes('aslan') && item == 27)
 // console.log(person);
 
-const Aslan = {
-    age: 27,
-    location: "Namangan",
-    adress: "Namangan shaxar Lola street",
-    work: "Fargp Parcell Service Manager",
-    interesting: "GYM, Study, IT",
-    langs: ["Uzb", "Rus", "Eng"],
-    lang: function (){
-        console.log(`I can speak in:` + " " + this.langs.join(", "));
+// const Aslan = {
+//     age: 27,
+//     location: "Namangan",
+//     adress: "Namangan shaxar Lola street",
+//     work: "Fargp Parcell Service Manager",
+//     interesting: "GYM, Study, IT",
+//     langs: ["Uzb", "Rus", "Eng"],
+//     lang: function (){
+//         console.log(`I can speak in:` + " " + this.langs.join(", "));
         
-    }
-}
+//     }
+// }
 
 
-Aslan.lang()
+// Aslan.lang()
+
+
+const movies = [
+    {name: "Avatar", likes: 400},
+    {name: "Batman", likes: 152},
+    {name: "Deadpool", likes: 700},
+]
+
+movies.forEach((movie) => {
+    const result = `Kino nomi: ${movie.name} Likes: ${movie.likes}`
+    console.log(result);
+})
