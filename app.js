@@ -1364,19 +1364,47 @@ document.addEventListener('keydown', (e) => {
     }
 })
 
-const person = `
-{
-    "name": "Aslan",
-    "age": 27,
-    "city": "Namangan",
-    "adress": {
-        "street": "lola ko'chasi, 106 uy",
-        "zipcode": 160100
-    },
-    "toodoos": ["eat", "train", "study"]
-}`
+// const person = `
+// {
+//     "name": "Aslan",
+//     "age": 27,
+//     "city": "Namangan",
+//     "adress": {
+//         "street": "lola ko'chasi, 106 uy",
+//         "zipcode": 160100
+//     },
+//     "toodoos": ["eat", "train", "study"]
+// }`
 
-    JSON.parse(person)
+//     JSON.parse(person)
 
-person.filter(item => item.includes('aslan') && item == 27)
-console.log(person);
+// person.filter(item => item.includes('aslan') && item == 27)
+// console.log(person);
+
+// const Aslan = {
+//     age: 27,
+//     location: "Namangan",
+//     adress: "Namangan shaxar Lola street",
+//     work: "Fargp Parcell Service Manager",
+//     interesting: "GYM, Study, IT",
+//     langs: ["Uzb", "Rus", "Eng"],
+//     lang: function (){
+//         console.log(`I can speak in:` + " " + this.langs.join(", "));
+        
+//     }
+// }
+
+
+// Aslan.lang()
+
+
+const movies = [
+    {name: "Avatar", likes: 400},
+    {name: "Batman", likes: 152},
+    {name: "Deadpool", likes: 700},
+]
+
+movies.forEach((movie) => {
+    const result = `Kino nomi: ${movie.name} Likes: ${movie.likes}`
+    console.log(result);
+})
