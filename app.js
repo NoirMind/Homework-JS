@@ -1386,7 +1386,13 @@ const Aslan = {
     location: "Namangan",
     adress: "Namangan shaxar Lola street",
     work: "Fargp Parcell Service Manager",
-    interesting: "GYM, Study, IT"
+    interesting: "GYM, Study, IT",
+    langs: ["Uzb", "Rus", "Eng"],
+    lang: function (){
+        console.log(`I can speak in:` + " " + this.langs.join(", "));
+        
+    }
 }
 
-console.log(Aslan.age);
+
+Aslan.lang()
